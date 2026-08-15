@@ -1,0 +1,23 @@
+# Project TODO
+
+- [x] Chuyển cấu trúc dự án thành ứng dụng Next.js App Router tương thích Vercel.
+- [x] Cài đặt thư viện Supabase cho xác thực OAuth, cơ sở dữ liệu và Supabase Storage.
+- [x] Xây dựng schema SQL gồm bảng hồ sơ người dùng, danh mục và bài viết với Row Level Security.
+- [x] Tạo cấu hình môi trường mẫu cho Supabase và hướng dẫn gán admin đầu tiên.
+- [x] Xây dựng khung giao diện tạp chí công nghệ, navbar danh mục và footer đáp ứng trên mọi kích thước màn hình.
+- [x] Xây dựng trang chủ dạng magazine grid với bài nổi bật, danh sách bài mới và thẻ bài viết.
+- [x] Xây dựng trang danh mục và bộ lọc bài viết theo danh mục.
+- [x] Xây dựng tìm kiếm bài viết theo từ khóa công khai.
+- [x] Xây dựng trang chi tiết bài viết với ảnh, tác giả, ngày đăng, nội dung Markdown và điều hướng liên quan.
+- [x] Xây dựng OAuth, kiểm tra vai trò admin và trải nghiệm đăng nhập/đăng xuất.
+- [x] Xây dựng trang quản trị danh sách bài viết với trạng thái, thao tác sửa và xóa có xác nhận.
+- [x] Xây dựng trình soạn thảo Markdown hỗ trợ tạo/sửa bản nháp và xuất bản bài viết.
+- [x] Xây dựng API upload ảnh thumbnail lên Supabase Storage và lưu URL ảnh vào bài viết.
+- [x] Viết các bài kiểm thử cho hàm tiện ích, kiểm soát quyền và luồng dữ liệu bài viết.
+- [x] Viết README đầy đủ cho cài đặt local, cấu hình Supabase, GitHub và triển khai Vercel.
+- [x] Kiểm tra TypeScript, lint/test, responsive layout và trạng thái rỗng/lỗi của giao diện.
+- [x] Bổ sung thao tác đăng xuất Supabase có thể truy cập từ khu vực quản trị.
+- [x] Tách quy tắc phân quyền và payload bài viết thành tiện ích dùng chung để kiểm thử.
+- [x] Viết kiểm thử cho phân quyền admin và dữ liệu tạo/cập nhật bài viết.
+- [x] Bổ sung lệnh lint cho dự án Next.js và xác minh lại toàn bộ kiểm tra trước khi bàn giao.
+- [x] Hiển thị lỗi và khôi phục trạng thái thao tác khi đăng xuất Supabase không thành công.
